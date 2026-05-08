@@ -11,14 +11,14 @@ visualization, regenerable end-to-end from a single `make` command.
   faint backbone tube behind the surface; mid-segment threshold sweep to show field falloff.
 
 The final video lives at `out/demo.mp4` (committed if < 25 MB) or attached to the
-[v0.1.0 release](https://github.com/gsmurphy/paraview-protein-demo/releases/tag/v0.1.0)
+[v0.1.0 release](https://github.com/gsmurphy/paraview-demo/releases/tag/v0.1.0)
 otherwise.
 
 ## Quickstart
 
 ```bash
-git clone https://github.com/gsmurphy/paraview-protein-demo.git
-cd paraview-protein-demo
+git clone https://github.com/gsmurphy/paraview-demo.git
+cd paraview-demo
 ./setup.sh        # installs ParaView, ffmpeg, gh, APBS, sets up .venv
 make              # fetch → convert → render → assemble → out/demo.mp4
 ```
