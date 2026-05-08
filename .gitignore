@@ -1,0 +1,33 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated artifacts
+frames/segment1/*.png
+frames/segment2/*.png
+frames/titlecard/*.png
+
+# Source data — fetched fresh by scripts/fetch_data.py on first run
+data/
+
+# Generated VTK geometry — produced by scripts/pdb_to_vtk.py
+*.vtp
+*.vtk
+*.vti
+
+# pvbatch symlink — created by setup.sh per-machine
+bin/
+
+# project brief (kept locally for reference; the README is canonical)
+project-brief.md
+
+# Claude Code per-project settings (local only)
+.claude/
+
+# APBS scratch output dropped in cwd
+io.mc
+
+# OS junk
+.DS_Store

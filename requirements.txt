@@ -1,0 +1,6 @@
+biopython>=1.83
+numpy>=1.26
+requests>=2.31
+tqdm>=4.66
+Pillow>=10.0
+pdb2pqr>=3.6.2
